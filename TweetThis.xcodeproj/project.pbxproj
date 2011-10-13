@@ -16,6 +16,9 @@
 		2DFEACFB144735CC008B627B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEACF9144735CC008B627B /* ViewController.xib */; };
 		2DFEAD0214473757008B627B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFEAD0114473757008B627B /* Twitter.framework */; };
 		2DFEAD041447406C008B627B /* tweetThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEAD031447406B008B627B /* tweetThumb.png */; };
+		2DFEAD231447737C008B627B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEAD221447737C008B627B /* README.md */; };
+		2DFEAD2614477653008B627B /* GPL-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEAD2414477653008B627B /* GPL-LICENSE.md */; };
+		2DFEAD2714477653008B627B /* MIT-LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2DFEAD2514477653008B627B /* MIT-LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		2DFEACFA144735CC008B627B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		2DFEAD0114473757008B627B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		2DFEAD031447406B008B627B /* tweetThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweetThumb.png; sourceTree = "<group>"; };
+		2DFEAD221447737C008B627B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		2DFEAD2414477653008B627B /* GPL-LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GPL-LICENSE.md"; sourceTree = "<group>"; };
+		2DFEAD2514477653008B627B /* MIT-LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT-LICENSE.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 		2DFEACD7144735CA008B627B = {
 			isa = PBXGroup;
 			children = (
+				2DFEAD221447737C008B627B /* README.md */,
 				2DFEACEA144735CB008B627B /* TweetThis */,
 				2DFEACE5144735CB008B627B /* Frameworks */,
 				2DFEACE3144735CB008B627B /* Products */,
+				2DFEAD2414477653008B627B /* GPL-LICENSE.md */,
+				2DFEAD2514477653008B627B /* MIT-LICENSE.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +164,9 @@
 				2DFEACEF144735CB008B627B /* InfoPlist.strings in Resources */,
 				2DFEACFB144735CC008B627B /* ViewController.xib in Resources */,
 				2DFEAD041447406C008B627B /* tweetThumb.png in Resources */,
+				2DFEAD231447737C008B627B /* README.md in Resources */,
+				2DFEAD2614477653008B627B /* GPL-LICENSE.md in Resources */,
+				2DFEAD2714477653008B627B /* MIT-LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
