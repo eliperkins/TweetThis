@@ -93,7 +93,7 @@
     
     //Add a link
     //Don't worry, Twitter will handle turning this into a t.co link
-    [tweetSheet addURL:[NSURL URLWithString:@"http://buildinternet.com"]];
+    [tweetSheet addURL:[NSURL URLWithString:@"http://buildinternet.com/2011/10/tweet-sheet-creating-a-popup-tweet-in-ios-5/"]];
     
     
     //Set a blocking handler for the tweet sheet
